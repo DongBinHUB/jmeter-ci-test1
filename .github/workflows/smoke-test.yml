@@ -1,10 +1,10 @@
-name: JMeter로 부하테스트
+name: dev, smoke test - JMeter로 light한 부하테스트
 
 on:
   push:
-    branches: [ "master", "dev" ]
+    branches: [ "dev" ]
   pull_request:
-    branches: [ "master", "dev" ]
+    branches: [ "dev" ]
   workflow_dispatch: # Actions 탭에서 수동으로 '딸깍' 실행하기 위한 트리거
 
 jobs:
